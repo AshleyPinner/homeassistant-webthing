@@ -4,5 +4,6 @@
   "documentation": "https://github.com/hidaris/homeassistant-webthing/tree/master/",
   "dependencies": [],
   "codeowners": [],
-  "requirements": ["websockets"]
+  "requirements": ["websockets"],
+  "version": 1.0.0
 }
