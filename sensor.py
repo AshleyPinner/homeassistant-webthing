@@ -18,7 +18,7 @@ from homeassistant.const import (
     DEVICE_CLASS_PRESSURE,
     DEVICE_CLASS_TEMPERATURE,
     TEMP_CELSIUS,
-    UNIT_PERCENTAGE,
+    PERCENTAGE,
 )
 
 from . import WebthingDevice
@@ -36,7 +36,7 @@ _LOGGER = logging.getLogger(__name__)
 
 SENSOR_TYPES = {
     "temperature": [TEMP_CELSIUS, None],
-    "humidity": [UNIT_PERCENTAGE, None],
+    "humidity": [PERCENTAGE, None],
     "illumination": ["lm", None],
     "lux": ["lx", None],
     "pressure": ["hPa", None],
