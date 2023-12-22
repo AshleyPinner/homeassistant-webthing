@@ -5,5 +5,7 @@
   "dependencies": [],
   "codeowners": [],
   "requirements": ["websockets"],
+  "intergration_type": "entity",
+  "iot_class": "local_polling",
   "version": "1.0.0"
 }
