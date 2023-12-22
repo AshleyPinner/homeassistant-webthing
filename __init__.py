@@ -17,11 +17,11 @@ async def fetch(session, url):
 
 async def async_setup(hass, config):
     # hass.states.async_set("hello_state.world", "Paulus")
-    async with aiohttp.ClientSession() as session:
-        things = await fetch(session, "https://cloud.iot.longan.link/things")
+    # async with aiohttp.ClientSession() as session:
+    #    things = await fetch(session, "https://cloud.iot.longan.link/things")
 
-    hass.data["things"] = things
-    hass.helpers.discovery.async_load_platform("webthing", DOMAIN, {}, config)
+    # hass.data["things"] = things
+    # hass.helpers.discovery.async_load_platform("webthing", DOMAIN, {}, config)
     # Return boolean to indicate that initialization was successful.
     return True
 
